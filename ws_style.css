@@ -1,0 +1,136 @@
+input,button,textarea{
+    margin:5px;
+}
+
+input.crazy {
+    background: white;
+    outline: none;
+    border: 1px solid #c3c3c3;
+    padding: 5px 13px;
+    color: #333;
+    font-family: monospace;
+    border-radius: 4px;
+}
+
+input.crazy-invert{
+    text-align: right;
+}
+
+button{user-select: none; border:0; outline: 0; cursor: pointer;}
+
+button.cute:hover{
+    opacity: 0.8;
+}
+
+button.cute{
+    color: #FFF;
+    background-color: #33C3F0;
+    border-color: 1px solid transparent;
+    padding:8px;
+    font-size: 14px;
+    font-family: 'arial', sans-serif;
+}
+
+button.peach{
+    background-color:#FD7272;
+}
+
+button.darkpink{
+    background-color: #FC427B;
+}
+
+button.bluebell{
+    background-color: #3B3B98;
+}
+
+button.kimb{
+    background-color: #58B19F;
+}
+
+button.darkmoney{
+    background:#2C3A47;    
+}
+
+
+
+button.cute-rounded{
+    border-radius:3px;
+}
+
+button.cute-circle{
+    border-radius:5px;
+}
+
+button.big{
+    padding:12px 16px;
+    font-size: 16px;
+}
+
+input.win, textarea.win{
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 0px;
+    outline: none;
+    padding: 5px 3px;
+}
+
+input.win:focus, textarea.win:focus{
+    outline: none;
+}
+
+textarea.win{
+    display: block;
+}
+
+button.win7{
+    background: linear-gradient( 0deg , #cdd2d3 0%, #cdd2d3 49%, #ecedeb 50%, #ecedeb 100%);
+    cursor: pointer;
+    padding: 4px 25px;
+    border-radius: 5px;
+    outline: none;
+    border: 1.99px solid #555;
+    font-family: 'Arial',sans-serif;
+    min-height: 34px;
+    color: #000;
+    font-size: 15px;
+    user-select: none;
+    box-sizing: border-box;
+    transition: background 4s, border 2s;
+}
+
+button.win7:hover{
+    background: linear-gradient( 0deg , #bdf0fa 0%, #cdd2d3 49%, #ecedeb 50%, #ecedeb 100%);
+        border-color: #49abbd;
+        outline: 1.5px solid #54c5da;
+        outline-offset: -3px;
+        outline-style: dotted;
+}
+
+button.winxp {
+  font-family: arial, sans-serif;
+  background: #F1F0EB;
+  padding: 8px;
+  padding-bottom: 3px;
+  width: 220px;
+  padding-top: 3px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: inset 0px -5px 3px rgba(173, 173, 173, 0.19);
+  border: 1px solid #446E91;
+  cursor: pointer;
+}
+button.winxp a{
+text-decoration:none;
+color:#000;
+font-size:14px;
+}
+button.winxp a::selection{background:#2B70CB; color:#f9f9f9;}
+button.winxp:hover{
+  background: #F1F0EB;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: inset 0px -5px 3px rgba(173, 173, 173, 0.19);
+  border: 1px solid #446E91;
+  outline-offset: -3px;
+  outline: 1px dotted #73AEDF;
+}
